@@ -1,0 +1,67 @@
+Program 10: Design and create a personal webpage with dashboard.
+dashboard.html
+<html>
+<head>
+<title>Personal Website Dashboard</title>
+<style>
+/* Style the header */
+.header {
+padding: 80px;
+text-align: center;
+background:tomato;
+color: yellow;
+}
+/* Style the top navigation bar */
+.navbar {
+overflow:hidden;
+background-color:yellow;
+}
+/* Style the navigation bar links */
+.navbar a {
+color: blue;
+text-align: center;
+padding: 14px 20px;
+}
+/* Change color on hover */
+.navbar a:hover {
+background-color:red;
+color: black;
+}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>My Website</h1>
+<p>A website created by me</p>
+</div>
+<div class="navbar">
+<a href="home.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact Me</a>
+</div>
+</body>
+</html>
+home.html
+<html>
+<head>
+<title>Home</title>
+<body bgcolor="pink">
+<p> Welcome to my dashboard website!</p>
+</body>
+</html>
+about.html
+<html>
+<head>
+<title>About</title>
+<body bgcolor="yellow">
+<p> I am first sem computer science student. I am studying in GPT Ballari</p>
+</body>
+</html>
+contact.html
+<html>
+<head>
+<title>Contact</title>
+<body bgcolor="pink">
+<p> Department of Computer Science & Engg. <br> Govt. Polytechnic Ballari</p>
+</body>
+</html>
